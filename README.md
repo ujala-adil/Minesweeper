@@ -31,7 +31,9 @@ The game includes classic Minesweeper features like:
 ## How to run locally
 1. Clone the project or download the ZIP
 2. Open the command prompt in the project folder and run:
-    _npm install     # in case of missing dependencies (node modules) otherwise skip this step
-    npm start        # or npm run dev if using Vite_
 
-3. Open your browser at http://localhost:3000/ to play
+    _npm install     # in case of missing dependencies (node modules) otherwise skip this step_
+   
+    _npm start        # or npm run dev if using Vite_
+
+4. Open your browser at http://localhost:3000/ to play
