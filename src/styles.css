@@ -1,50 +1,21 @@
 .grid {
-    display: grid;
-    grid-template-columns: repeat(10, 30px);
-    gap: 2px;
-  }
-  .cell {
-    width: 30px;
-    height: 30px;
-    border: 1px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
-    cursor: pointer;
-  }
-  .revealed {
-    background: lightgray;
-  }
-  .flagged {
-    background: red;
-  }
-  .restart-button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #007bff;
-    border: none;
-    border-radius: 6px;
-    color: white;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  .restart-button:hover {
-    background-color: #0056b3;
-  }
-  
-  .end-message {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .end-text {
-    font-size: 22px;
-    font-weight: bold;
-    margin-bottom: 12px;
-    color: #dc3545; /* red tone */
-  }
-  
+  display: grid;
+  grid-template-columns: repeat(10, 30px);
+  gap: 2px;
+}
+.cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  cursor: pointer;
+}
+.revealed {
+  background: lightgray;
+}
+.flagged {
+  background: red;
+}
