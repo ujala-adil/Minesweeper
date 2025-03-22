@@ -13,9 +13,9 @@ The game includes classic Minesweeper features like:
 - Clean UI feedback for game over and win conditions
 
 ## 🛠️ Technologies Used
-⚛️ React
-💅 CSS (plain)
-🔧 JavaScript (ES6)
+- ⚛️ React – UI library for building interactive user interfaces
+- 🎨 CSS – Styling the grid and UI components
+- 📜 JavaScript (ES6) – Game logic and state management
 
 ## 🎮 Features
 - 10x10 grid with 10 randomly placed mines
